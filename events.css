@@ -1,0 +1,46 @@
+#output-target {
+	font-weight: bold;
+	font-size: 20px;
+} 
+
+h1 {
+	width: 20%;
+}
+
+.normal {
+	color: black;
+	font-size: 15px;
+	border: none;
+}
+
+
+.addColor {
+	color: blue;
+}
+
+.addSize {
+	font-size: 20px;
+}
+
+.addBorder {
+	border: 1px solid;
+}
+
+.addBorderRadius {
+	border: 1px solid;
+	border-radius: 25px 25px;
+}
+
+section:nth-child(1), section:nth-child(2), section:nth-child(3) {
+	font-weight: bold;
+}
+
+section:nth-child(4), section:nth-child(5), section:nth-child(6) {
+	font-weight: bold;
+	font-style: italic;
+}
+
+button {
+	display: inline-block;
+	margin: 10px;
+}
